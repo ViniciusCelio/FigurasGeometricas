@@ -14,7 +14,7 @@ namespace FigurasGeometricas
         {
             try
             {
-                MessageBox.Show(Circulo.Mostrar());
+                MessageBox.Show("Quadrado escolhido!");
                 var calcularQuadrado = new AreaCalcular();
                 calcularQuadrado.Show();
                 this.Visible = false;
