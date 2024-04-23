@@ -75,7 +75,7 @@
             Controls.Add(label1);
             Name = "ResultadoTriangulo";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "ResultadoTriangulo";
+            Text = "Resultado forma : Triangulo";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();

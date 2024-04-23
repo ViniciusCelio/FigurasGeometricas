@@ -3,12 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\otavi\\source\\repos\\FigurasGeometricas1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EEB0E7DB-76D0-404D-8EFC-4D89192585A3}|FigurasGeometricas\\FigurasGeometricas.csproj|c:\\users\\otavi\\source\\repos\\figurasgeometricas1\\figurasgeometricas\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EEB0E7DB-76D0-404D-8EFC-4D89192585A3}|FigurasGeometricas\\FigurasGeometricas.csproj|solutionrelative:figurasgeometricas\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{EEB0E7DB-76D0-404D-8EFC-4D89192585A3}|FigurasGeometricas\\FigurasGeometricas.csproj|C:\\Users\\otavi\\source\\repos\\FigurasGeometricas1\\figurasgeometricas\\resultadotriangulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EEB0E7DB-76D0-404D-8EFC-4D89192585A3}|FigurasGeometricas\\FigurasGeometricas.csproj|solutionrelative:figurasgeometricas\\resultadotriangulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EEB0E7DB-76D0-404D-8EFC-4D89192585A3}|FigurasGeometricas\\FigurasGeometricas.csproj|c:\\users\\otavi\\source\\repos\\figurasgeometricas1\\figurasgeometricas\\resultadotriangulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EEB0E7DB-76D0-404D-8EFC-4D89192585A3}|FigurasGeometricas\\FigurasGeometricas.csproj|solutionrelative:figurasgeometricas\\resultadotriangulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{EEB0E7DB-76D0-404D-8EFC-4D89192585A3}|FigurasGeometricas\\FigurasGeometricas.csproj|c:\\users\\otavi\\source\\repos\\figurasgeometricas1\\figurasgeometricas\\resultadoretangulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EEB0E7DB-76D0-404D-8EFC-4D89192585A3}|FigurasGeometricas\\FigurasGeometricas.csproj|solutionrelative:figurasgeometricas\\resultadoretangulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEB0E7DB-76D0-404D-8EFC-4D89192585A3}|FigurasGeometricas\\FigurasGeometricas.csproj|c:\\users\\otavi\\source\\repos\\figurasgeometricas1\\figurasgeometricas\\resultadoquadrado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EEB0E7DB-76D0-404D-8EFC-4D89192585A3}|FigurasGeometricas\\FigurasGeometricas.csproj|solutionrelative:figurasgeometricas\\resultadoquadrado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEB0E7DB-76D0-404D-8EFC-4D89192585A3}|FigurasGeometricas\\FigurasGeometricas.csproj|c:\\users\\otavi\\source\\repos\\figurasgeometricas1\\figurasgeometricas\\resultadopentagono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EEB0E7DB-76D0-404D-8EFC-4D89192585A3}|FigurasGeometricas\\FigurasGeometricas.csproj|solutionrelative:figurasgeometricas\\resultadopentagono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEB0E7DB-76D0-404D-8EFC-4D89192585A3}|FigurasGeometricas\\FigurasGeometricas.csproj|c:\\users\\otavi\\source\\repos\\figurasgeometricas1\\figurasgeometricas\\resultadooctagono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EEB0E7DB-76D0-404D-8EFC-4D89192585A3}|FigurasGeometricas\\FigurasGeometricas.csproj|solutionrelative:figurasgeometricas\\resultadooctagono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEB0E7DB-76D0-404D-8EFC-4D89192585A3}|FigurasGeometricas\\FigurasGeometricas.csproj|c:\\users\\otavi\\source\\repos\\figurasgeometricas1\\figurasgeometricas\\resultadohexagono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EEB0E7DB-76D0-404D-8EFC-4D89192585A3}|FigurasGeometricas\\FigurasGeometricas.csproj|solutionrelative:figurasgeometricas\\resultadohexagono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEB0E7DB-76D0-404D-8EFC-4D89192585A3}|FigurasGeometricas\\FigurasGeometricas.csproj|c:\\users\\otavi\\source\\repos\\figurasgeometricas1\\figurasgeometricas\\resultadocirculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EEB0E7DB-76D0-404D-8EFC-4D89192585A3}|FigurasGeometricas\\FigurasGeometricas.csproj|solutionrelative:figurasgeometricas\\resultadocirculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEB0E7DB-76D0-404D-8EFC-4D89192585A3}|FigurasGeometricas\\FigurasGeometricas.csproj|c:\\users\\otavi\\source\\repos\\figurasgeometricas1\\figurasgeometricas\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EEB0E7DB-76D0-404D-8EFC-4D89192585A3}|FigurasGeometricas\\FigurasGeometricas.csproj|solutionrelative:figurasgeometricas\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -27,6 +51,54 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ResultadoRetangulo.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\otavi\\source\\repos\\FigurasGeometricas1\\FigurasGeometricas\\ResultadoRetangulo.cs",
+              "RelativeDocumentMoniker": "FigurasGeometricas\\ResultadoRetangulo.cs",
+              "ToolTip": "C:\\Users\\otavi\\source\\repos\\FigurasGeometricas1\\FigurasGeometricas\\ResultadoRetangulo.cs [Projeto]",
+              "RelativeToolTip": "FigurasGeometricas\\ResultadoRetangulo.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T19:37:19.638Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ResultadoQuadrado.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\otavi\\source\\repos\\FigurasGeometricas1\\FigurasGeometricas\\ResultadoQuadrado.cs",
+              "RelativeDocumentMoniker": "FigurasGeometricas\\ResultadoQuadrado.cs",
+              "ToolTip": "C:\\Users\\otavi\\source\\repos\\FigurasGeometricas1\\FigurasGeometricas\\ResultadoQuadrado.cs [Projeto]",
+              "RelativeToolTip": "FigurasGeometricas\\ResultadoQuadrado.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T19:37:17.835Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ResultadoPentagono.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\otavi\\source\\repos\\FigurasGeometricas1\\FigurasGeometricas\\ResultadoPentagono.cs",
+              "RelativeDocumentMoniker": "FigurasGeometricas\\ResultadoPentagono.cs",
+              "ToolTip": "C:\\Users\\otavi\\source\\repos\\FigurasGeometricas1\\FigurasGeometricas\\ResultadoPentagono.cs [Projeto]",
+              "RelativeToolTip": "FigurasGeometricas\\ResultadoPentagono.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T19:37:14.984Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ResultadoOctagono.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\otavi\\source\\repos\\FigurasGeometricas1\\FigurasGeometricas\\ResultadoOctagono.cs",
+              "RelativeDocumentMoniker": "FigurasGeometricas\\ResultadoOctagono.cs",
+              "ToolTip": "C:\\Users\\otavi\\source\\repos\\FigurasGeometricas1\\FigurasGeometricas\\ResultadoOctagono.cs [Projeto]",
+              "RelativeToolTip": "FigurasGeometricas\\ResultadoOctagono.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T19:37:12.959Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "ResultadoTriangulo.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\otavi\\source\\repos\\FigurasGeometricas1\\FigurasGeometricas\\ResultadoTriangulo.cs",
               "RelativeDocumentMoniker": "FigurasGeometricas\\ResultadoTriangulo.cs",
@@ -38,7 +110,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
+              "Title": "ResultadoHexagono.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\otavi\\source\\repos\\FigurasGeometricas1\\FigurasGeometricas\\ResultadoHexagono.cs",
+              "RelativeDocumentMoniker": "FigurasGeometricas\\ResultadoHexagono.cs",
+              "ToolTip": "C:\\Users\\otavi\\source\\repos\\FigurasGeometricas1\\FigurasGeometricas\\ResultadoHexagono.cs [Projeto]",
+              "RelativeToolTip": "FigurasGeometricas\\ResultadoHexagono.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T19:36:41.151Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ResultadoCirculo.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\otavi\\source\\repos\\FigurasGeometricas1\\FigurasGeometricas\\ResultadoCirculo.cs",
+              "RelativeDocumentMoniker": "FigurasGeometricas\\ResultadoCirculo.cs",
+              "ToolTip": "C:\\Users\\otavi\\source\\repos\\FigurasGeometricas1\\FigurasGeometricas\\ResultadoCirculo.cs [Projeto]",
+              "RelativeToolTip": "FigurasGeometricas\\ResultadoCirculo.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T19:36:39.669Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Menu.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\otavi\\source\\repos\\FigurasGeometricas1\\FigurasGeometricas\\Menu.cs",
               "RelativeDocumentMoniker": "FigurasGeometricas\\Menu.cs",

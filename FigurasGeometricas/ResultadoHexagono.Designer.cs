@@ -86,7 +86,7 @@
             Controls.Add(label1);
             Name = "ResultadoHexagono";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "ResultadoHexagono";
+            Text = "Resultado forma : Hexagono";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
