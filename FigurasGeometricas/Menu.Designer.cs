@@ -1,6 +1,6 @@
 ﻿namespace FigurasGeometricas
 {
-    partial class Form1
+    partial class Menu
     {
         /// <summary>
         ///  Required designer variable.
@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             label1 = new Label();
-            button1 = new Button();
+            btnQuadradoMenu = new Button();
             label2 = new Label();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
-            button5 = new Button();
-            button6 = new Button();
-            button7 = new Button();
+            btnOctogonoMenu = new Button();
+            btnPentagonoMenu = new Button();
+            btnRetanguloMenu = new Button();
+            btnTrianguloMenu = new Button();
+            btnCirculoMenu = new Button();
+            btnHexagonoMenu = new Button();
             label3 = new Label();
             label4 = new Label();
             label5 = new Label();
@@ -57,13 +57,13 @@
             // 
             // button1
             // 
-            button1.Location = new Point(151, 48);
-            button1.Name = "button1";
-            button1.Size = new Size(88, 34);
-            button1.TabIndex = 1;
-            button1.Text = "Selecionar";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            btnQuadradoMenu.Location = new Point(151, 48);
+            btnQuadradoMenu.Name = "button1";
+            btnQuadradoMenu.Size = new Size(88, 34);
+            btnQuadradoMenu.TabIndex = 1;
+            btnQuadradoMenu.Text = "Selecionar";
+            btnQuadradoMenu.UseVisualStyleBackColor = true;
+            btnQuadradoMenu.Click += BtnQuadradoMenu_Click;
             // 
             // label2
             // 
@@ -77,63 +77,63 @@
             // 
             // button2
             // 
-            button2.Location = new Point(151, 176);
-            button2.Name = "button2";
-            button2.Size = new Size(88, 34);
-            button2.TabIndex = 4;
-            button2.Text = "Selecionar";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
+            btnOctogonoMenu.Location = new Point(151, 176);
+            btnOctogonoMenu.Name = "button2";
+            btnOctogonoMenu.Size = new Size(88, 34);
+            btnOctogonoMenu.TabIndex = 4;
+            btnOctogonoMenu.Text = "Selecionar";
+            btnOctogonoMenu.UseVisualStyleBackColor = true;
+            btnOctogonoMenu.Click += BtnOctogonoMenu_Click;
             // 
             // button3
             // 
-            button3.Location = new Point(151, 330);
-            button3.Name = "button3";
-            button3.Size = new Size(88, 34);
-            button3.TabIndex = 5;
-            button3.Text = "Selecionar";
-            button3.UseVisualStyleBackColor = true;
-            button3.Click += button3_Click;
+            btnPentagonoMenu.Location = new Point(151, 330);
+            btnPentagonoMenu.Name = "button3";
+            btnPentagonoMenu.Size = new Size(88, 34);
+            btnPentagonoMenu.TabIndex = 5;
+            btnPentagonoMenu.Text = "Selecionar";
+            btnPentagonoMenu.UseVisualStyleBackColor = true;
+            btnPentagonoMenu.Click += BtnPentaganoMenu_Click;
             // 
             // button4
             // 
-            button4.Location = new Point(447, 48);
-            button4.Name = "button4";
-            button4.Size = new Size(88, 34);
-            button4.TabIndex = 6;
-            button4.Text = "Selecionar";
-            button4.UseVisualStyleBackColor = true;
-            button4.Click += button4_Click;
+            btnRetanguloMenu.Location = new Point(447, 48);
+            btnRetanguloMenu.Name = "button4";
+            btnRetanguloMenu.Size = new Size(88, 34);
+            btnRetanguloMenu.TabIndex = 6;
+            btnRetanguloMenu.Text = "Selecionar";
+            btnRetanguloMenu.UseVisualStyleBackColor = true;
+            btnRetanguloMenu.Click += BtnRetanguloMenu_Click;
             // 
             // button5
             // 
-            button5.Location = new Point(447, 176);
-            button5.Name = "button5";
-            button5.Size = new Size(88, 34);
-            button5.TabIndex = 7;
-            button5.Text = "Selecionar";
-            button5.UseVisualStyleBackColor = true;
-            button5.Click += button5_Click;
+            btnTrianguloMenu.Location = new Point(447, 176);
+            btnTrianguloMenu.Name = "button5";
+            btnTrianguloMenu.Size = new Size(88, 34);
+            btnTrianguloMenu.TabIndex = 7;
+            btnTrianguloMenu.Text = "Selecionar";
+            btnTrianguloMenu.UseVisualStyleBackColor = true;
+            btnTrianguloMenu.Click += BtnTrianguloMenu_Click;
             // 
             // button6
             // 
-            button6.Location = new Point(447, 330);
-            button6.Name = "button6";
-            button6.Size = new Size(88, 34);
-            button6.TabIndex = 8;
-            button6.Text = "Selecionar";
-            button6.UseVisualStyleBackColor = true;
-            button6.Click += button6_Click;
+            btnCirculoMenu.Location = new Point(447, 330);
+            btnCirculoMenu.Name = "button6";
+            btnCirculoMenu.Size = new Size(88, 34);
+            btnCirculoMenu.TabIndex = 8;
+            btnCirculoMenu.Text = "Selecionar";
+            btnCirculoMenu.UseVisualStyleBackColor = true;
+            btnCirculoMenu.Click += BtnCirculoMenu_Click;
             // 
             // button7
             // 
-            button7.Location = new Point(688, 176);
-            button7.Name = "button7";
-            button7.Size = new Size(88, 34);
-            button7.TabIndex = 9;
-            button7.Text = "Selecionar";
-            button7.UseVisualStyleBackColor = true;
-            button7.Click += button7_Click;
+            btnHexagonoMenu.Location = new Point(688, 176);
+            btnHexagonoMenu.Name = "button7";
+            btnHexagonoMenu.Size = new Size(88, 34);
+            btnHexagonoMenu.TabIndex = 9;
+            btnHexagonoMenu.Text = "Selecionar";
+            btnHexagonoMenu.UseVisualStyleBackColor = true;
+            btnHexagonoMenu.Click += BtnHexagonoMenu_Click;
             // 
             // label3
             // 
@@ -206,14 +206,14 @@
             Controls.Add(label5);
             Controls.Add(label4);
             Controls.Add(label3);
-            Controls.Add(button7);
-            Controls.Add(button6);
-            Controls.Add(button5);
-            Controls.Add(button4);
-            Controls.Add(button3);
-            Controls.Add(button2);
+            Controls.Add(btnHexagonoMenu);
+            Controls.Add(btnCirculoMenu);
+            Controls.Add(btnTrianguloMenu);
+            Controls.Add(btnRetanguloMenu);
+            Controls.Add(btnPentagonoMenu);
+            Controls.Add(btnOctogonoMenu);
             Controls.Add(label2);
-            Controls.Add(button1);
+            Controls.Add(btnQuadradoMenu);
             Controls.Add(label1);
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
@@ -225,14 +225,14 @@
         #endregion
 
         private Label label1;
-        private Button button1;
+        private Button btnQuadradoMenu;
         private Label label2;
-        private Button button2;
-        private Button button3;
-        private Button button4;
-        private Button button5;
-        private Button button6;
-        private Button button7;
+        private Button btnOctogonoMenu;
+        private Button btnPentagonoMenu;
+        private Button btnRetanguloMenu;
+        private Button btnTrianguloMenu;
+        private Button btnCirculoMenu;
+        private Button btnHexagonoMenu;
         private Label label3;
         private Label label4;
         private Label label5;

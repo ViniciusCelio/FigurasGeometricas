@@ -3,14 +3,14 @@ using System.Linq.Expressions;
 
 namespace FigurasGeometricas
 {
-    public partial class Form1 : Form
+    public partial class Menu : Form
     {
-        public Form1()
+        public Menu()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void BtnQuadradoMenu_Click(object sender, EventArgs e)
         {
             try
             {
@@ -26,7 +26,7 @@ namespace FigurasGeometricas
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void BtnOctogonoMenu_Click(object sender, EventArgs e)
         {
             try
             {
@@ -41,7 +41,7 @@ namespace FigurasGeometricas
             }
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void BtnPentaganoMenu_Click(object sender, EventArgs e)
         {
             try
             {
@@ -56,7 +56,7 @@ namespace FigurasGeometricas
             }
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void BtnRetanguloMenu_Click(object sender, EventArgs e)
         {
             try
             {
@@ -72,7 +72,7 @@ namespace FigurasGeometricas
 
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void BtnTrianguloMenu_Click(object sender, EventArgs e)
         {
             try
             {
@@ -87,7 +87,7 @@ namespace FigurasGeometricas
             }
         }
 
-        private void button6_Click(object sender, EventArgs e)
+        private void BtnCirculoMenu_Click(object sender, EventArgs e)
         {
             try
             {
@@ -102,7 +102,7 @@ namespace FigurasGeometricas
             }
         }
 
-        private void button7_Click(object sender, EventArgs e)
+        private void BtnHexagonoMenu_Click(object sender, EventArgs e)
         {
             try
             {
