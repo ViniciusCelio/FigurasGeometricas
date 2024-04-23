@@ -20,10 +20,9 @@ namespace formas
             return Math.Sqrt(s * (s - ladoA) * (s - ladoB) * (s - ladoC));
         }
 
-        public override void Mostrar()
+        public override string Mostrar()
         {
-            Console.WriteLine("<<<< Triângulo >>>>");
-            base.Mostrar();
+            return "Triângulo:\n\n" + base.Mostrar();
         }
     }
 }

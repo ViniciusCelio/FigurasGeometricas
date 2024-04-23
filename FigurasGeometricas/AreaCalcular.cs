@@ -14,7 +14,7 @@ using util;
 
 namespace FigurasGeometricas
 {
-    public partial class AreaCalcular : Form, IForma
+    public partial class AreaCalcular : Form
     {
         public AreaCalcular()
         {

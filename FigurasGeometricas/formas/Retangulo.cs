@@ -14,10 +14,9 @@ namespace formas
 
         public override double CalcularArea() => Base * altura;
 
-        public override void Mostrar()
+        public override string Mostrar()
         {
-            Console.WriteLine("<<<< Retângulo >>>>");
-            base.Mostrar();
+            return "Retangulo:\n\n" + base.Mostrar();
         }
     }
 }

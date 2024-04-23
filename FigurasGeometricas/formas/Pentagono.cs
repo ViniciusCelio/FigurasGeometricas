@@ -9,10 +9,9 @@ namespace formas
 
         public override double CalcularPerimetro() => lado * 5;
         public override double CalcularArea() => (lado * lado) * Math.Sqrt(25 + 10 * Math.Sqrt(5)) / 4;
-        public override void Mostrar()
+        public override string Mostrar()
         {
-            Console.WriteLine("<<<< Pentágono >>>>");
-            base.Mostrar();
+            return "Pentagono:\n\n" + base.Mostrar();
         }
     }
 }

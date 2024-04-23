@@ -4,6 +4,6 @@ namespace util
     {
         double CalcularArea();
         double CalcularPerimetro();
-        void Mostrar();
+        string Mostrar();
     }
 }

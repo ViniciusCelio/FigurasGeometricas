@@ -1,5 +1,6 @@
 using formas;
 using System.Linq.Expressions;
+using util;
 
 namespace FigurasGeometricas
 {
@@ -14,8 +15,8 @@ namespace FigurasGeometricas
         {
             try
             {
-                MessageBox.Show("Quadrado escolhido!");
-                var calcularQuadrado = new AreaCalcular();
+                var objQuadrado = new Quadrado(double.Parse(inputQuadrado.Text));
+                var calcularQuadrado = new Resultado(objQuadrado);
                 calcularQuadrado.Show();
                 this.Visible = false;
             }
@@ -30,8 +31,8 @@ namespace FigurasGeometricas
         {
             try
             {
-                MessageBox.Show("Octágono escolhido! ");
-                var calcularOctagono = new AreaCalcular();
+                var objOctogono = new Octogono(double.Parse(inputOctogono.Text));
+                var calcularOctagono = new Resultado(objOctogono);
                 calcularOctagono.Show();
                 this.Visible = false;
             }
@@ -45,8 +46,8 @@ namespace FigurasGeometricas
         {
             try
             {
-                MessageBox.Show("Pentágono escolhido! ");
-                var calcularPentagono = new AreaCalcular();
+                var objPentagono = new Pentagono(double.Parse(inputPentagono.Text));
+                var calcularPentagono = new Resultado(objPentagono);
                 calcularPentagono.Show();
                 this.Visible = false;
             }
@@ -60,8 +61,9 @@ namespace FigurasGeometricas
         {
             try
             {
-                MessageBox.Show("Retângulo escolhido! ");
-                var calcularRetangulo = new AreaCalcular();
+                var objRetangulo = new Retangulo(double.Parse(inputRetanguloBase.Text), 
+                                                 double.Parse(inputRetanguloAltura.Text));
+                var calcularRetangulo = new Resultado(objRetangulo);
                 calcularRetangulo.Show();
                 this.Visible = false;
             }
@@ -76,8 +78,10 @@ namespace FigurasGeometricas
         {
             try
             {
-                MessageBox.Show("Triângulo escolhido! ");
-                var calcularTriangulo = new AreaCalcular();
+                var objTriangulo = new Triangulo(double.Parse(inputTriangulo1.Text),
+                                                 double.Parse(inputTriangulo2.Text),
+                                                 double.Parse(inputTriangulo3.Text));
+                var calcularTriangulo = new Resultado(objTriangulo);
                 calcularTriangulo.Show();
                 this.Visible = false;
             }
@@ -91,9 +95,9 @@ namespace FigurasGeometricas
         {
             try
             {
-                MessageBox.Show("Círculo escolhido! ");
-                var calcularRaio = new AreaCalcular();
-                calcularRaio.Show();
+                var objCirculo = new Circulo(double.Parse(inputCirculo.Text));
+                var calcularCirculo = new Resultado(objCirculo);
+                calcularCirculo.Show();
                 this.Visible = false;
             }
             catch (Exception)
@@ -106,8 +110,8 @@ namespace FigurasGeometricas
         {
             try
             {
-                MessageBox.Show("Hexágono escolhido! ");
-                var calcularHexagono = new AreaCalcular();
+                var objHexagono = new Hexagono(double.Parse(inputHexagono.Text));
+                var calcularHexagono = new Resultado(objHexagono);
                 calcularHexagono.Show();
                 this.Visible = false;
             }

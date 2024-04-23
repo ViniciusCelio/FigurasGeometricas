@@ -8,6 +8,6 @@ namespace util
 
 		public abstract double CalcularArea();
 		public abstract double CalcularPerimetro();
-		public virtual void Mostrar() => Console.WriteLine($"Perímetro: {CalcularPerimetro()}\nÁrea: {CalcularArea()}");
+		public virtual string Mostrar() => $"Perímetro: {CalcularPerimetro()}\nÁrea: {CalcularArea()}";
 	}
 }

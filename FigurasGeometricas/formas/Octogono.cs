@@ -10,10 +10,9 @@ namespace formas
 
         public override double CalcularArea() => 2 * (1 + Math.Sqrt(2)) * (lado * lado);
 
-        public override void Mostrar()
+        public override string Mostrar()
         {
-            Console.WriteLine("<<<< Octógono >>>>");
-            base.Mostrar();
+            return "Octogono:\n\n" + base.Mostrar();
         }
     }
 }

@@ -10,10 +10,9 @@ namespace formas
 
         public override double CalcularArea() => pi * (raio * raio);
 
-        public override void Mostrar()
+        public override string Mostrar()
         {
-            Console.WriteLine("<<<< Círculo >>>>");
-            base.Mostrar();
+            return $"Círculo:\n" + base.Mostrar();
         }
     }
 }
