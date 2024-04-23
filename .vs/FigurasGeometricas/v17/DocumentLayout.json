@@ -1,34 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\otavi\\source\\repos\\FigurasGeometricas\\",
+  "WorkspaceRootPath": "C:\\Users\\otavi\\source\\repos\\FigurasGeometricas1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EEB0E7DB-76D0-404D-8EFC-4D89192585A3}|FigurasGeometricas\\FigurasGeometricas.csproj|c:\\users\\otavi\\source\\repos\\figurasgeometricas\\figurasgeometricas\\areacalcular.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEB0E7DB-76D0-404D-8EFC-4D89192585A3}|FigurasGeometricas\\FigurasGeometricas.csproj|solutionrelative:figurasgeometricas\\areacalcular.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EEB0E7DB-76D0-404D-8EFC-4D89192585A3}|FigurasGeometricas\\FigurasGeometricas.csproj|c:\\users\\otavi\\source\\repos\\figurasgeometricas1\\figurasgeometricas\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EEB0E7DB-76D0-404D-8EFC-4D89192585A3}|FigurasGeometricas\\FigurasGeometricas.csproj|solutionrelative:figurasgeometricas\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EEB0E7DB-76D0-404D-8EFC-4D89192585A3}|FigurasGeometricas\\FigurasGeometricas.csproj|C:\\Users\\otavi\\source\\repos\\FigurasGeometricas\\figurasgeometricas\\areacalcular.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EEB0E7DB-76D0-404D-8EFC-4D89192585A3}|FigurasGeometricas\\FigurasGeometricas.csproj|solutionrelative:figurasgeometricas\\areacalcular.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EEB0E7DB-76D0-404D-8EFC-4D89192585A3}|FigurasGeometricas\\FigurasGeometricas.csproj|C:\\Users\\otavi\\source\\repos\\FigurasGeometricas\\figurasgeometricas\\formas\\quadrado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEB0E7DB-76D0-404D-8EFC-4D89192585A3}|FigurasGeometricas\\FigurasGeometricas.csproj|solutionrelative:figurasgeometricas\\formas\\quadrado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EEB0E7DB-76D0-404D-8EFC-4D89192585A3}|FigurasGeometricas\\FigurasGeometricas.csproj|C:\\Users\\otavi\\source\\repos\\FigurasGeometricas\\figurasgeometricas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEB0E7DB-76D0-404D-8EFC-4D89192585A3}|FigurasGeometricas\\FigurasGeometricas.csproj|solutionrelative:figurasgeometricas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EEB0E7DB-76D0-404D-8EFC-4D89192585A3}|FigurasGeometricas\\FigurasGeometricas.csproj|C:\\Users\\otavi\\source\\repos\\FigurasGeometricas\\figurasgeometricas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EEB0E7DB-76D0-404D-8EFC-4D89192585A3}|FigurasGeometricas\\FigurasGeometricas.csproj|solutionrelative:figurasgeometricas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EEB0E7DB-76D0-404D-8EFC-4D89192585A3}|FigurasGeometricas\\FigurasGeometricas.csproj|C:\\Users\\otavi\\source\\repos\\FigurasGeometricas\\figurasgeometricas\\util\\iforma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEB0E7DB-76D0-404D-8EFC-4D89192585A3}|FigurasGeometricas\\FigurasGeometricas.csproj|solutionrelative:figurasgeometricas\\util\\iforma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EEB0E7DB-76D0-404D-8EFC-4D89192585A3}|FigurasGeometricas\\FigurasGeometricas.csproj|C:\\Users\\otavi\\source\\repos\\FigurasGeometricas\\figurasgeometricas\\util\\forma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEB0E7DB-76D0-404D-8EFC-4D89192585A3}|FigurasGeometricas\\FigurasGeometricas.csproj|solutionrelative:figurasgeometricas\\util\\forma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EEB0E7DB-76D0-404D-8EFC-4D89192585A3}|FigurasGeometricas\\FigurasGeometricas.csproj|c:\\users\\otavi\\source\\repos\\figurasgeometricas1\\figurasgeometricas\\resultadotriangulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EEB0E7DB-76D0-404D-8EFC-4D89192585A3}|FigurasGeometricas\\FigurasGeometricas.csproj|solutionrelative:figurasgeometricas\\resultadotriangulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,92 +26,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Forma.cs",
-              "DocumentMoniker": "C:\\Users\\otavi\\source\\repos\\FigurasGeometricas\\FigurasGeometricas\\util\\Forma.cs",
-              "RelativeDocumentMoniker": "FigurasGeometricas\\util\\Forma.cs",
-              "ToolTip": "C:\\Users\\otavi\\source\\repos\\FigurasGeometricas\\FigurasGeometricas\\util\\Forma.cs",
-              "RelativeToolTip": "FigurasGeometricas\\util\\Forma.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T02:48:36.229Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IForma.cs",
-              "DocumentMoniker": "C:\\Users\\otavi\\source\\repos\\FigurasGeometricas\\FigurasGeometricas\\util\\IForma.cs",
-              "RelativeDocumentMoniker": "FigurasGeometricas\\util\\IForma.cs",
-              "ToolTip": "C:\\Users\\otavi\\source\\repos\\FigurasGeometricas\\FigurasGeometricas\\util\\IForma.cs",
-              "RelativeToolTip": "FigurasGeometricas\\util\\IForma.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T02:29:04.593Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AreaCalcular.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\otavi\\source\\repos\\FigurasGeometricas\\FigurasGeometricas\\AreaCalcular.cs",
-              "RelativeDocumentMoniker": "FigurasGeometricas\\AreaCalcular.cs",
-              "ToolTip": "C:\\Users\\otavi\\source\\repos\\FigurasGeometricas\\FigurasGeometricas\\AreaCalcular.cs [Projeto]",
-              "RelativeToolTip": "FigurasGeometricas\\AreaCalcular.cs [Projeto]",
+              "Title": "ResultadoTriangulo.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\otavi\\source\\repos\\FigurasGeometricas1\\FigurasGeometricas\\ResultadoTriangulo.cs",
+              "RelativeDocumentMoniker": "FigurasGeometricas\\ResultadoTriangulo.cs",
+              "ToolTip": "C:\\Users\\otavi\\source\\repos\\FigurasGeometricas1\\FigurasGeometricas\\ResultadoTriangulo.cs [Projeto]",
+              "RelativeToolTip": "FigurasGeometricas\\ResultadoTriangulo.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T02:15:37.777Z",
+              "WhenOpened": "2024-04-23T19:25:26.533Z",
               "EditorCaption": " [Projeto]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form1.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\otavi\\source\\repos\\FigurasGeometricas\\FigurasGeometricas\\Form1.cs",
-              "RelativeDocumentMoniker": "FigurasGeometricas\\Form1.cs",
-              "ToolTip": "C:\\Users\\otavi\\source\\repos\\FigurasGeometricas\\FigurasGeometricas\\Form1.cs [Projeto]",
-              "RelativeToolTip": "FigurasGeometricas\\Form1.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T02:10:11.117Z",
-              "EditorCaption": " [Projeto]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Quadrado.cs",
-              "DocumentMoniker": "C:\\Users\\otavi\\source\\repos\\FigurasGeometricas\\FigurasGeometricas\\formas\\Quadrado.cs",
-              "RelativeDocumentMoniker": "FigurasGeometricas\\formas\\Quadrado.cs",
-              "ToolTip": "C:\\Users\\otavi\\source\\repos\\FigurasGeometricas\\FigurasGeometricas\\formas\\Quadrado.cs",
-              "RelativeToolTip": "FigurasGeometricas\\formas\\Quadrado.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T02:15:16.932Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AreaCalcular.cs",
-              "DocumentMoniker": "C:\\Users\\otavi\\source\\repos\\FigurasGeometricas\\FigurasGeometricas\\AreaCalcular.cs",
-              "RelativeDocumentMoniker": "FigurasGeometricas\\AreaCalcular.cs",
-              "ToolTip": "C:\\Users\\otavi\\source\\repos\\FigurasGeometricas\\FigurasGeometricas\\AreaCalcular.cs",
-              "RelativeToolTip": "FigurasGeometricas\\AreaCalcular.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAJAAAA",
+              "Title": "Menu.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\otavi\\source\\repos\\FigurasGeometricas1\\FigurasGeometricas\\Menu.cs",
+              "RelativeDocumentMoniker": "FigurasGeometricas\\Menu.cs",
+              "ToolTip": "C:\\Users\\otavi\\source\\repos\\FigurasGeometricas1\\FigurasGeometricas\\Menu.cs [Projeto]",
+              "RelativeToolTip": "FigurasGeometricas\\Menu.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T02:14:57.239Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\otavi\\source\\repos\\FigurasGeometricas\\FigurasGeometricas\\Form1.cs",
-              "RelativeDocumentMoniker": "FigurasGeometricas\\Form1.cs",
-              "ToolTip": "C:\\Users\\otavi\\source\\repos\\FigurasGeometricas\\FigurasGeometricas\\Form1.cs",
-              "RelativeToolTip": "FigurasGeometricas\\Form1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T02:12:00.139Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T18:15:06.923Z",
+              "EditorCaption": " [Projeto]"
             }
           ]
         }

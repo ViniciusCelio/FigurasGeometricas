@@ -16,15 +16,21 @@ namespace FigurasGeometricas
             try
             {
                 var objQuadrado = new Quadrado(double.Parse(inputQuadrado.Text));
-                var calcularQuadrado = new Resultado(objQuadrado);
+                var calcularQuadrado = new ResultadoQuadrado(objQuadrado);
                 calcularQuadrado.Show();
-                this.Visible = false;
+                inputQuadrado.Text = "";
             }
             catch (Exception)
             {
                 throw new Exception("erro!!!");
             }
-
+        }
+        private void inputQuadrado_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsDigit(e.KeyChar) && e.KeyChar != 08)
+            {
+                e.Handled = true;
+            }
         }
 
         private void BtnOctogonoMenu_Click(object sender, EventArgs e)
@@ -32,13 +38,20 @@ namespace FigurasGeometricas
             try
             {
                 var objOctogono = new Octogono(double.Parse(inputOctogono.Text));
-                var calcularOctagono = new Resultado(objOctogono);
+                var calcularOctagono = new ResultadoOctagono(objOctogono);
                 calcularOctagono.Show();
-                this.Visible = false;
+                inputOctogono.Text = string.Empty;
             }
             catch (Exception)
             {
                 throw new Exception("erro!!!");
+            }
+        }
+        private void inputOctogono_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsDigit(e.KeyChar) && e.KeyChar != 08)
+            {
+                e.Handled = true;
             }
         }
 
@@ -47,13 +60,20 @@ namespace FigurasGeometricas
             try
             {
                 var objPentagono = new Pentagono(double.Parse(inputPentagono.Text));
-                var calcularPentagono = new Resultado(objPentagono);
+                var calcularPentagono = new ResultadoPentagono(objPentagono);
                 calcularPentagono.Show();
-                this.Visible = false;
+                inputPentagono.Text = string.Empty;
             }
             catch (Exception)
             {
                 throw new Exception("erro!!!");
+            }
+        }
+        private void inputPentagono_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsDigit(e.KeyChar) && e.KeyChar != 08)
+            {
+                e.Handled = true;
             }
         }
 
@@ -61,17 +81,32 @@ namespace FigurasGeometricas
         {
             try
             {
-                var objRetangulo = new Retangulo(double.Parse(inputRetanguloBase.Text), 
+                var objRetangulo = new Retangulo(double.Parse(inputRetanguloBase.Text),
                                                  double.Parse(inputRetanguloAltura.Text));
-                var calcularRetangulo = new Resultado(objRetangulo);
+                var calcularRetangulo = new ResultadoRetangulo(objRetangulo);
                 calcularRetangulo.Show();
-                this.Visible = false;
+                inputRetanguloAltura.Text = string.Empty;
+                inputRetanguloBase.Text = string.Empty;
             }
             catch (Exception)
             {
                 throw new Exception("erro!!!");
             }
+        }
+        private void inputRetanguloBase_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsDigit(e.KeyChar) && e.KeyChar != 08)
+            {
+                e.Handled = true;
+            }
+        }
 
+        private void inputRetanguloAltura_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsDigit(e.KeyChar) && e.KeyChar != 08)
+            {
+                e.Handled = true;
+            }
         }
 
         private void BtnTrianguloMenu_Click(object sender, EventArgs e)
@@ -81,13 +116,38 @@ namespace FigurasGeometricas
                 var objTriangulo = new Triangulo(double.Parse(inputTriangulo1.Text),
                                                  double.Parse(inputTriangulo2.Text),
                                                  double.Parse(inputTriangulo3.Text));
-                var calcularTriangulo = new Resultado(objTriangulo);
+                var calcularTriangulo = new ResultadoTriangulo(objTriangulo);
                 calcularTriangulo.Show();
-                this.Visible = false;
+                inputTriangulo1.Text = string.Empty;
+                inputTriangulo2.Text = string.Empty;
+                inputTriangulo3.Text = string.Empty;
             }
             catch (Exception)
             {
                 throw new Exception("erro!!!");
+            }
+        }
+        private void inputTriangulo1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsDigit(e.KeyChar) && e.KeyChar != 08)
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void inputTriangulo2_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsDigit(e.KeyChar) && e.KeyChar != 08)
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void inputTriangulo3_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsDigit(e.KeyChar) && e.KeyChar != 08)
+            {
+                e.Handled = true;
             }
         }
 
@@ -96,13 +156,20 @@ namespace FigurasGeometricas
             try
             {
                 var objCirculo = new Circulo(double.Parse(inputCirculo.Text));
-                var calcularCirculo = new Resultado(objCirculo);
+                var calcularCirculo = new ResultadoCirculo(objCirculo);
                 calcularCirculo.Show();
-                this.Visible = false;
+                inputCirculo.Text = string.Empty;
             }
             catch (Exception)
             {
                 throw new Exception("erro!!!");
+            }
+        }
+        private void inputCirculo_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsDigit(e.KeyChar) && e.KeyChar != 08)
+            {
+                e.Handled = true;
             }
         }
 
@@ -111,13 +178,20 @@ namespace FigurasGeometricas
             try
             {
                 var objHexagono = new Hexagono(double.Parse(inputHexagono.Text));
-                var calcularHexagono = new Resultado(objHexagono);
+                var calcularHexagono = new ResultadoHexagono(objHexagono);
                 calcularHexagono.Show();
-                this.Visible = false;
+                inputHexagono.Text = string.Empty;
             }
             catch (Exception)
             {
                 throw new Exception("erro!!!");
+            }
+        }
+        private void inputHexagono_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsDigit(e.KeyChar) && e.KeyChar != 08)
+            {
+                e.Handled = true;
             }
         }
     }

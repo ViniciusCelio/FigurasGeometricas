@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
             label1 = new Label();
             btnOctogonoMenu = new Button();
             btnPentagonoMenu = new Button();
@@ -65,6 +66,20 @@
             label18 = new Label();
             label19 = new Label();
             label20 = new Label();
+            pictureBox1 = new PictureBox();
+            pictureBox2 = new PictureBox();
+            pictureBox3 = new PictureBox();
+            pictureBox4 = new PictureBox();
+            pictureBox5 = new PictureBox();
+            pictureBox6 = new PictureBox();
+            pictureBox7 = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -79,7 +94,7 @@
             // 
             // btnOctogonoMenu
             // 
-            btnOctogonoMenu.Location = new Point(21, 203);
+            btnOctogonoMenu.Location = new Point(164, 261);
             btnOctogonoMenu.Name = "btnOctogonoMenu";
             btnOctogonoMenu.Size = new Size(82, 24);
             btnOctogonoMenu.TabIndex = 4;
@@ -89,7 +104,7 @@
             // 
             // btnPentagonoMenu
             // 
-            btnPentagonoMenu.Location = new Point(21, 356);
+            btnPentagonoMenu.Location = new Point(164, 414);
             btnPentagonoMenu.Name = "btnPentagonoMenu";
             btnPentagonoMenu.Size = new Size(82, 24);
             btnPentagonoMenu.TabIndex = 5;
@@ -99,7 +114,7 @@
             // 
             // btnRetanguloMenu
             // 
-            btnRetanguloMenu.Location = new Point(495, 237);
+            btnRetanguloMenu.Location = new Point(866, 294);
             btnRetanguloMenu.Name = "btnRetanguloMenu";
             btnRetanguloMenu.Size = new Size(82, 24);
             btnRetanguloMenu.TabIndex = 6;
@@ -109,7 +124,7 @@
             // 
             // btnTrianguloMenu
             // 
-            btnTrianguloMenu.Location = new Point(276, 261);
+            btnTrianguloMenu.Location = new Point(521, 314);
             btnTrianguloMenu.Name = "btnTrianguloMenu";
             btnTrianguloMenu.Size = new Size(82, 24);
             btnTrianguloMenu.TabIndex = 7;
@@ -119,7 +134,7 @@
             // 
             // btnCirculoMenu
             // 
-            btnCirculoMenu.Location = new Point(276, 356);
+            btnCirculoMenu.Location = new Point(524, 414);
             btnCirculoMenu.Name = "btnCirculoMenu";
             btnCirculoMenu.Size = new Size(82, 24);
             btnCirculoMenu.TabIndex = 8;
@@ -129,7 +144,7 @@
             // 
             // btnHexagonoMenu
             // 
-            btnHexagonoMenu.Location = new Point(276, 101);
+            btnHexagonoMenu.Location = new Point(524, 133);
             btnHexagonoMenu.Name = "btnHexagonoMenu";
             btnHexagonoMenu.Size = new Size(82, 24);
             btnHexagonoMenu.TabIndex = 9;
@@ -141,7 +156,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Tahoma", 11F, FontStyle.Bold, GraphicsUnit.Point);
-            label3.Location = new Point(21, 155);
+            label3.Location = new Point(164, 213);
             label3.Name = "label3";
             label3.Size = new Size(79, 18);
             label3.TabIndex = 10;
@@ -151,7 +166,7 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Tahoma", 11F, FontStyle.Bold, GraphicsUnit.Point);
-            label4.Location = new Point(495, 155);
+            label4.Location = new Point(836, 208);
             label4.Name = "label4";
             label4.Size = new Size(84, 18);
             label4.TabIndex = 11;
@@ -161,7 +176,7 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Tahoma", 11F, FontStyle.Bold, GraphicsUnit.Point);
-            label5.Location = new Point(276, 155);
+            label5.Location = new Point(521, 208);
             label5.Name = "label5";
             label5.Size = new Size(79, 18);
             label5.TabIndex = 12;
@@ -171,7 +186,7 @@
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Tahoma", 11F, FontStyle.Bold, GraphicsUnit.Point);
-            label6.Location = new Point(21, 306);
+            label6.Location = new Point(164, 364);
             label6.Name = "label6";
             label6.Size = new Size(87, 18);
             label6.TabIndex = 13;
@@ -181,7 +196,7 @@
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Tahoma", 11F, FontStyle.Bold, GraphicsUnit.Point);
-            label7.Location = new Point(273, 48);
+            label7.Location = new Point(521, 80);
             label7.Name = "label7";
             label7.Size = new Size(82, 18);
             label7.TabIndex = 14;
@@ -191,7 +206,7 @@
             // 
             label8.AutoSize = true;
             label8.Font = new Font("Tahoma", 11F, FontStyle.Bold, GraphicsUnit.Point);
-            label8.Location = new Point(276, 306);
+            label8.Location = new Point(524, 364);
             label8.Name = "label8";
             label8.Size = new Size(61, 18);
             label8.TabIndex = 15;
@@ -201,7 +216,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Tahoma", 11F, FontStyle.Bold, GraphicsUnit.Point);
-            label2.Location = new Point(21, 48);
+            label2.Location = new Point(164, 80);
             label2.Name = "label2";
             label2.Size = new Size(81, 18);
             label2.TabIndex = 3;
@@ -209,7 +224,7 @@
             // 
             // btnQuadradoMenu
             // 
-            btnQuadradoMenu.Location = new Point(21, 101);
+            btnQuadradoMenu.Location = new Point(164, 133);
             btnQuadradoMenu.Name = "btnQuadradoMenu";
             btnQuadradoMenu.Size = new Size(82, 24);
             btnQuadradoMenu.TabIndex = 1;
@@ -219,15 +234,17 @@
             // 
             // inputQuadrado
             // 
-            inputQuadrado.Location = new Point(21, 75);
+            inputQuadrado.Location = new Point(164, 107);
+            inputQuadrado.MaxLength = 5;
             inputQuadrado.Name = "inputQuadrado";
             inputQuadrado.Size = new Size(52, 23);
             inputQuadrado.TabIndex = 16;
+            inputQuadrado.KeyPress += inputQuadrado_KeyPress;
             // 
             // label9
             // 
             label9.AutoSize = true;
-            label9.Location = new Point(79, 78);
+            label9.Location = new Point(222, 110);
             label9.Name = "label9";
             label9.Size = new Size(24, 15);
             label9.TabIndex = 17;
@@ -235,15 +252,17 @@
             // 
             // inputRetanguloBase
             // 
-            inputRetanguloBase.Location = new Point(525, 180);
+            inputRetanguloBase.Location = new Point(866, 233);
+            inputRetanguloBase.MaxLength = 5;
             inputRetanguloBase.Name = "inputRetanguloBase";
             inputRetanguloBase.Size = new Size(54, 23);
             inputRetanguloBase.TabIndex = 18;
+            inputRetanguloBase.KeyPress += inputRetanguloBase_KeyPress;
             // 
             // label10
             // 
             label10.AutoSize = true;
-            label10.Location = new Point(585, 183);
+            label10.Location = new Point(926, 236);
             label10.Name = "label10";
             label10.Size = new Size(24, 15);
             label10.TabIndex = 19;
@@ -251,15 +270,17 @@
             // 
             // inputOctogono
             // 
-            inputOctogono.Location = new Point(21, 176);
+            inputOctogono.Location = new Point(164, 234);
+            inputOctogono.MaxLength = 5;
             inputOctogono.Name = "inputOctogono";
             inputOctogono.Size = new Size(51, 23);
             inputOctogono.TabIndex = 20;
+            inputOctogono.KeyPress += inputOctogono_KeyPress;
             // 
             // label11
             // 
             label11.AutoSize = true;
-            label11.Location = new Point(78, 179);
+            label11.Location = new Point(221, 237);
             label11.Name = "label11";
             label11.Size = new Size(24, 15);
             label11.TabIndex = 21;
@@ -267,29 +288,35 @@
             // 
             // inputTriangulo1
             // 
-            inputTriangulo1.Location = new Point(279, 176);
+            inputTriangulo1.Location = new Point(524, 229);
+            inputTriangulo1.MaxLength = 5;
             inputTriangulo1.Name = "inputTriangulo1";
             inputTriangulo1.Size = new Size(51, 23);
             inputTriangulo1.TabIndex = 22;
+            inputTriangulo1.KeyPress += inputTriangulo1_KeyPress;
             // 
             // inputTriangulo3
             // 
-            inputTriangulo3.Location = new Point(279, 232);
+            inputTriangulo3.Location = new Point(524, 285);
+            inputTriangulo3.MaxLength = 5;
             inputTriangulo3.Name = "inputTriangulo3";
             inputTriangulo3.Size = new Size(51, 23);
             inputTriangulo3.TabIndex = 23;
+            inputTriangulo3.KeyPress += inputTriangulo3_KeyPress;
             // 
             // inputTriangulo2
             // 
-            inputTriangulo2.Location = new Point(279, 205);
+            inputTriangulo2.Location = new Point(524, 258);
+            inputTriangulo2.MaxLength = 5;
             inputTriangulo2.Name = "inputTriangulo2";
             inputTriangulo2.Size = new Size(51, 23);
             inputTriangulo2.TabIndex = 24;
+            inputTriangulo2.KeyPress += inputTriangulo2_KeyPress;
             // 
             // label12
             // 
             label12.AutoSize = true;
-            label12.Location = new Point(340, 235);
+            label12.Location = new Point(585, 288);
             label12.Name = "label12";
             label12.Size = new Size(24, 15);
             label12.TabIndex = 25;
@@ -298,7 +325,7 @@
             // label13
             // 
             label13.AutoSize = true;
-            label13.Location = new Point(340, 208);
+            label13.Location = new Point(585, 261);
             label13.Name = "label13";
             label13.Size = new Size(24, 15);
             label13.TabIndex = 26;
@@ -307,7 +334,7 @@
             // label14
             // 
             label14.AutoSize = true;
-            label14.Location = new Point(340, 179);
+            label14.Location = new Point(585, 232);
             label14.Name = "label14";
             label14.Size = new Size(24, 15);
             label14.TabIndex = 27;
@@ -315,15 +342,17 @@
             // 
             // inputPentagono
             // 
-            inputPentagono.Location = new Point(22, 327);
+            inputPentagono.Location = new Point(165, 385);
+            inputPentagono.MaxLength = 5;
             inputPentagono.Name = "inputPentagono";
             inputPentagono.Size = new Size(51, 23);
             inputPentagono.TabIndex = 28;
+            inputPentagono.KeyPress += inputPentagono_KeyPress;
             // 
             // label15
             // 
             label15.AutoSize = true;
-            label15.Location = new Point(76, 330);
+            label15.Location = new Point(219, 388);
             label15.Name = "label15";
             label15.Size = new Size(24, 15);
             label15.TabIndex = 29;
@@ -331,15 +360,17 @@
             // 
             // inputCirculo
             // 
-            inputCirculo.Location = new Point(304, 332);
+            inputCirculo.Location = new Point(552, 390);
+            inputCirculo.MaxLength = 5;
             inputCirculo.Name = "inputCirculo";
             inputCirculo.Size = new Size(51, 23);
             inputCirculo.TabIndex = 30;
+            inputCirculo.KeyPress += inputCirculo_KeyPress;
             // 
             // label16
             // 
             label16.AutoSize = true;
-            label16.Location = new Point(276, 335);
+            label16.Location = new Point(524, 393);
             label16.Name = "label16";
             label16.Size = new Size(27, 15);
             label16.TabIndex = 31;
@@ -348,7 +379,7 @@
             // label17
             // 
             label17.AutoSize = true;
-            label17.Location = new Point(334, 78);
+            label17.Location = new Point(582, 110);
             label17.Name = "label17";
             label17.Size = new Size(24, 15);
             label17.TabIndex = 33;
@@ -356,22 +387,26 @@
             // 
             // inputHexagono
             // 
-            inputHexagono.Location = new Point(276, 75);
+            inputHexagono.Location = new Point(524, 107);
+            inputHexagono.MaxLength = 5;
             inputHexagono.Name = "inputHexagono";
             inputHexagono.Size = new Size(52, 23);
             inputHexagono.TabIndex = 32;
+            inputHexagono.KeyPress += inputHexagono_KeyPress;
             // 
             // inputRetanguloAltura
             // 
-            inputRetanguloAltura.Location = new Point(525, 208);
+            inputRetanguloAltura.Location = new Point(866, 261);
+            inputRetanguloAltura.MaxLength = 5;
             inputRetanguloAltura.Name = "inputRetanguloAltura";
             inputRetanguloAltura.Size = new Size(54, 23);
             inputRetanguloAltura.TabIndex = 34;
+            inputRetanguloAltura.KeyPress += inputRetanguloAltura_KeyPress;
             // 
             // label18
             // 
             label18.AutoSize = true;
-            label18.Location = new Point(585, 213);
+            label18.Location = new Point(926, 266);
             label18.Name = "label18";
             label18.Size = new Size(24, 15);
             label18.TabIndex = 35;
@@ -380,7 +415,7 @@
             // label19
             // 
             label19.AutoSize = true;
-            label19.Location = new Point(488, 188);
+            label19.Location = new Point(829, 241);
             label19.Name = "label19";
             label19.Size = new Size(31, 15);
             label19.TabIndex = 36;
@@ -389,17 +424,94 @@
             // label20
             // 
             label20.AutoSize = true;
-            label20.Location = new Point(482, 213);
+            label20.Location = new Point(823, 266);
             label20.Name = "label20";
             label20.Size = new Size(37, 15);
             label20.TabIndex = 37;
             label20.Text = "altura";
             // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(22, 65);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(121, 110);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 38;
+            pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new Point(22, 204);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(121, 110);
+            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox2.TabIndex = 39;
+            pictureBox2.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
+            pictureBox3.Location = new Point(22, 351);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(121, 110);
+            pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox3.TabIndex = 40;
+            pictureBox3.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
+            pictureBox4.Location = new Point(369, 65);
+            pictureBox4.Name = "pictureBox4";
+            pictureBox4.Size = new Size(121, 110);
+            pictureBox4.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox4.TabIndex = 41;
+            pictureBox4.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
+            pictureBox5.Location = new Point(369, 208);
+            pictureBox5.Name = "pictureBox5";
+            pictureBox5.Size = new Size(121, 110);
+            pictureBox5.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox5.TabIndex = 42;
+            pictureBox5.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            pictureBox6.Image = (Image)resources.GetObject("pictureBox6.Image");
+            pictureBox6.Location = new Point(369, 351);
+            pictureBox6.Name = "pictureBox6";
+            pictureBox6.Size = new Size(121, 110);
+            pictureBox6.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox6.TabIndex = 43;
+            pictureBox6.TabStop = false;
+            // 
+            // pictureBox7
+            // 
+            pictureBox7.Image = (Image)resources.GetObject("pictureBox7.Image");
+            pictureBox7.Location = new Point(677, 208);
+            pictureBox7.Name = "pictureBox7";
+            pictureBox7.Size = new Size(121, 110);
+            pictureBox7.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox7.TabIndex = 44;
+            pictureBox7.TabStop = false;
+            // 
             // Menu
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(651, 450);
+            ClientSize = new Size(971, 575);
+            Controls.Add(pictureBox7);
+            Controls.Add(pictureBox6);
+            Controls.Add(pictureBox5);
+            Controls.Add(pictureBox4);
+            Controls.Add(pictureBox3);
+            Controls.Add(pictureBox2);
+            Controls.Add(pictureBox1);
             Controls.Add(label20);
             Controls.Add(label19);
             Controls.Add(label18);
@@ -440,6 +552,13 @@
             Name = "Menu";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Cálculador de formas geométricas";
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -483,5 +602,12 @@
         private Label label18;
         private Label label19;
         private Label label20;
+        private PictureBox pictureBox1;
+        private PictureBox pictureBox2;
+        private PictureBox pictureBox3;
+        private PictureBox pictureBox4;
+        private PictureBox pictureBox5;
+        private PictureBox pictureBox6;
+        private PictureBox pictureBox7;
     }
 }

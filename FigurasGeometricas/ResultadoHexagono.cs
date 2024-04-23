@@ -1,5 +1,4 @@
-﻿using formas;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,12 +11,12 @@ using util;
 
 namespace FigurasGeometricas
 {
-    public partial class Resultado : Form
+    public partial class ResultadoHexagono : Form
     {
-        public Resultado(Forma objForma)
+        public ResultadoHexagono(Forma objForma)
         {
             InitializeComponent();
-            labelResultado.Text = objForma.Mostrar();
+            labelResultadoHexagono.Text = objForma.Mostrar();
         }
     }
 }
