@@ -16,7 +16,7 @@ namespace FigurasGeometricas
             try
             {
                 var objQuadrado = new Quadrado(double.Parse(inputQuadrado.Text));
-                var calcularQuadrado = new ResultadoQuadrado(objQuadrado);
+                var calcularQuadrado = new Resultado(objQuadrado);
                 calcularQuadrado.Show();
                 inputQuadrado.Text = "";
             }
@@ -38,7 +38,7 @@ namespace FigurasGeometricas
             try
             {
                 var objOctogono = new Octogono(double.Parse(inputOctogono.Text));
-                var calcularOctagono = new ResultadoOctagono(objOctogono);
+                var calcularOctagono = new Resultado(objOctogono);
                 calcularOctagono.Show();
                 inputOctogono.Text = string.Empty;
             }
@@ -60,7 +60,7 @@ namespace FigurasGeometricas
             try
             {
                 var objPentagono = new Pentagono(double.Parse(inputPentagono.Text));
-                var calcularPentagono = new ResultadoPentagono(objPentagono);
+                var calcularPentagono = new Resultado(objPentagono);
                 calcularPentagono.Show();
                 inputPentagono.Text = string.Empty;
             }
@@ -83,7 +83,7 @@ namespace FigurasGeometricas
             {
                 var objRetangulo = new Retangulo(double.Parse(inputRetanguloBase.Text),
                                                  double.Parse(inputRetanguloAltura.Text));
-                var calcularRetangulo = new ResultadoRetangulo(objRetangulo);
+                var calcularRetangulo = new Resultado(objRetangulo);
                 calcularRetangulo.Show();
                 inputRetanguloAltura.Text = string.Empty;
                 inputRetanguloBase.Text = string.Empty;
@@ -116,7 +116,7 @@ namespace FigurasGeometricas
                 var objTriangulo = new Triangulo(double.Parse(inputTriangulo1.Text),
                                                  double.Parse(inputTriangulo2.Text),
                                                  double.Parse(inputTriangulo3.Text));
-                var calcularTriangulo = new ResultadoTriangulo(objTriangulo);
+                var calcularTriangulo = new Resultado(objTriangulo);
                 calcularTriangulo.Show();
                 inputTriangulo1.Text = string.Empty;
                 inputTriangulo2.Text = string.Empty;
@@ -156,7 +156,7 @@ namespace FigurasGeometricas
             try
             {
                 var objCirculo = new Circulo(double.Parse(inputCirculo.Text));
-                var calcularCirculo = new ResultadoCirculo(objCirculo);
+                var calcularCirculo = new Resultado(objCirculo);
                 calcularCirculo.Show();
                 inputCirculo.Text = string.Empty;
             }
@@ -178,7 +178,7 @@ namespace FigurasGeometricas
             try
             {
                 var objHexagono = new Hexagono(double.Parse(inputHexagono.Text));
-                var calcularHexagono = new ResultadoHexagono(objHexagono);
+                var calcularHexagono = new Resultado(objHexagono);
                 calcularHexagono.Show();
                 inputHexagono.Text = string.Empty;
             }

@@ -9,14 +9,11 @@ namespace formas
             this.Base = _base;
             this.altura = _altura;
         }
-
         public override double CalcularPerimetro() => 2 * (Base + altura);
-
         public override double CalcularArea() => Base * altura;
-
-        public override string Mostrar()
+        public override (string resultadoStr, string imgNome) Mostrar()
         {
-            return "Retangulo:\n\n" + base.Mostrar();
+            return ($"Retângulo:\n" + base.Mostrar().resultadoStr, "retangulo");
         }
     }
 }

@@ -10,9 +10,9 @@ namespace formas
 
         public override double CalcularArea() => pi * (raio * raio);
 
-        public override string Mostrar()
+        public override (string resultadoStr, string imgNome) Mostrar()
         {
-            return $"Círculo:\n" + base.Mostrar();
+            return ($"Círculo:\n" + base.Mostrar().resultadoStr, "circulo");
         }
     }
 }

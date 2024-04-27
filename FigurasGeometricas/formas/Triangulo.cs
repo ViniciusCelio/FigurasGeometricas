@@ -19,10 +19,9 @@ namespace formas
             double s = CalcularPerimetro() / 2;
             return Math.Sqrt(s * (s - ladoA) * (s - ladoB) * (s - ladoC));
         }
-
-        public override string Mostrar()
+        public override (string resultadoStr, string imgNome) Mostrar()
         {
-            return "Triângulo:\n\n" + base.Mostrar();
+            return ($"Triângulo:\n" + base.Mostrar().resultadoStr, "triangulo");
         }
     }
 }

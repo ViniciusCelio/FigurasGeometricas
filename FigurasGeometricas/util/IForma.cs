@@ -4,6 +4,6 @@ namespace util
     {
         double CalcularArea();
         double CalcularPerimetro();
-        string Mostrar();
+        (string resultadoStr, string imgNome) Mostrar();
     }
 }

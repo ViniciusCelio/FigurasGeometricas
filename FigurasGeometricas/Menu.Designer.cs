@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
             label1 = new Label();
             btnOctogonoMenu = new Button();
             btnPentagonoMenu = new Button();
@@ -432,7 +431,7 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Image = Properties.Resources.quadrado;
             pictureBox1.Location = new Point(22, 65);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(121, 110);
@@ -442,7 +441,7 @@
             // 
             // pictureBox2
             // 
-            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Image = Properties.Resources.octogono;
             pictureBox2.Location = new Point(22, 204);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(121, 110);
@@ -452,7 +451,7 @@
             // 
             // pictureBox3
             // 
-            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
+            pictureBox3.Image = Properties.Resources.pentagono;
             pictureBox3.Location = new Point(22, 351);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(121, 110);
@@ -462,7 +461,7 @@
             // 
             // pictureBox4
             // 
-            pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
+            pictureBox4.Image = Properties.Resources.hexagono;
             pictureBox4.Location = new Point(369, 65);
             pictureBox4.Name = "pictureBox4";
             pictureBox4.Size = new Size(121, 110);
@@ -472,7 +471,7 @@
             // 
             // pictureBox5
             // 
-            pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
+            pictureBox5.Image = Properties.Resources.triangulo;
             pictureBox5.Location = new Point(369, 208);
             pictureBox5.Name = "pictureBox5";
             pictureBox5.Size = new Size(121, 110);
@@ -482,7 +481,7 @@
             // 
             // pictureBox6
             // 
-            pictureBox6.Image = (Image)resources.GetObject("pictureBox6.Image");
+            pictureBox6.Image = Properties.Resources.circulo;
             pictureBox6.Location = new Point(369, 351);
             pictureBox6.Name = "pictureBox6";
             pictureBox6.Size = new Size(121, 110);
@@ -492,7 +491,7 @@
             // 
             // pictureBox7
             // 
-            pictureBox7.Image = (Image)resources.GetObject("pictureBox7.Image");
+            pictureBox7.Image = Properties.Resources.retangulo;
             pictureBox7.Location = new Point(677, 208);
             pictureBox7.Name = "pictureBox7";
             pictureBox7.Size = new Size(121, 110);

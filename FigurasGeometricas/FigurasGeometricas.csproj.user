@@ -4,25 +4,7 @@
     <Compile Update="Menu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="ResultadoHexagono.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="ResultadoPentagono.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="ResultadoQuadrado.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="ResultadoCirculo.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="ResultadoOctagono.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="ResultadoRetangulo.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="ResultadoTriangulo.cs">
+    <Compile Update="Resultado.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

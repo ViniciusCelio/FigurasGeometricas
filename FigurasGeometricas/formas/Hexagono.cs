@@ -10,9 +10,9 @@ namespace formas
 
         public override double CalcularArea() => (3 * (lado * lado) * Math.Sqrt(3)) / 2;
 
-        public override string Mostrar()
+        public override (string resultadoStr, string imgNome) Mostrar()
         {
-            return $"Hexagono: \n\n" + base.Mostrar();
+            return ($"Hexágono:\n" + base.Mostrar().resultadoStr, "hexagono");
         }
     }
 }

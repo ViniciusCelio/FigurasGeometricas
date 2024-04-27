@@ -33,7 +33,6 @@ C:\Users\Notebook\source\repos\FigurasGeometricas\FigurasGeometricas\obj\Debug\n
 C:\Users\Notebook\source\repos\FigurasGeometricas\FigurasGeometricas\obj\Debug\net6.0-windows\FigurasGeometricas.genruntimeconfig.cache
 C:\Users\Notebook\source\repos\FigurasGeometricas\FigurasGeometricas\obj\Debug\net6.0-windows\ref\FigurasGeometricas.dll
 C:\Users\Notebook\source\repos\FigurasGeometricas\FigurasGeometricas\obj\Debug\net6.0-windows\FigurasGeometricas.Menu.resources
-C:\Users\Notebook\source\repos\FigurasGeometricas\FigurasGeometricas\obj\Debug\net6.0-windows\FigurasGeometricas.Resultado.resources
 C:\Users\otavi\Source\Repos\FigurasGeometricas1\FigurasGeometricas\bin\Debug\net6.0-windows\FigurasGeometricas.exe
 C:\Users\otavi\Source\Repos\FigurasGeometricas1\FigurasGeometricas\bin\Debug\net6.0-windows\FigurasGeometricas.deps.json
 C:\Users\otavi\Source\Repos\FigurasGeometricas1\FigurasGeometricas\bin\Debug\net6.0-windows\FigurasGeometricas.runtimeconfig.json
@@ -59,3 +58,5 @@ C:\Users\otavi\Source\Repos\FigurasGeometricas1\FigurasGeometricas\obj\Debug\net
 C:\Users\otavi\Source\Repos\FigurasGeometricas1\FigurasGeometricas\obj\Debug\net6.0-windows\FigurasGeometricas.ResultadoRetangulo.resources
 C:\Users\otavi\Source\Repos\FigurasGeometricas1\FigurasGeometricas\obj\Debug\net6.0-windows\FigurasGeometricas.ResultadoHexagono.resources
 C:\Users\otavi\Source\Repos\FigurasGeometricas1\FigurasGeometricas\obj\Debug\net6.0-windows\FigurasGeometricas.ResultadoTriangulo.resources
+C:\Users\Notebook\source\repos\FigurasGeometricas\FigurasGeometricas\obj\Debug\net6.0-windows\FigurasGeometricas.Properties.Resources.resources
+C:\Users\Notebook\source\repos\FigurasGeometricas\FigurasGeometricas\obj\Debug\net6.0-windows\FigurasGeometricas.Resultado.resources

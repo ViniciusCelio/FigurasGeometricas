@@ -9,9 +9,9 @@ namespace formas
 
         public override double CalcularPerimetro() => lado * 5;
         public override double CalcularArea() => (lado * lado) * Math.Sqrt(25 + 10 * Math.Sqrt(5)) / 4;
-        public override string Mostrar()
+        public override (string resultadoStr, string imgNome) Mostrar()
         {
-            return "Pentagono:\n\n" + base.Mostrar();
+            return ($"Pentágono:\n" + base.Mostrar().resultadoStr, "pentagono");
         }
     }
 }

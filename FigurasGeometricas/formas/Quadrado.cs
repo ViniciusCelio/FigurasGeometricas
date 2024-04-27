@@ -10,9 +10,9 @@ namespace formas
 
         public override double CalcularArea() => lado * lado;
 
-        public override string Mostrar()
+        public override (string resultadoStr, string imgNome) Mostrar()
         {
-            return "Quadrado:\n\n" + base.Mostrar();
+            return ($"Quadrado:\n" + base.Mostrar().resultadoStr, "quadrado");
         }
     }
 }
